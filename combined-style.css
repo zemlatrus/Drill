@@ -1,0 +1,146 @@
+@font-face{
+  font-family: 'Thin';
+  src: url('Style/Fonts/thin-world.ttf');
+}
+
+@font-face{
+  font-family: 'Kyiv';
+  src: url('Style/Fonts/Ancient_Kyiv.TTF');
+}
+
+@font-face{
+  font-family: 'NY';
+  src: url('Style/Fonts/NEWYORKR.TTF');
+}
+
+@font-face{
+  font-family: 'Evangelie';
+  src: url('Style/Fonts/Evangelie.TTF');
+}
+
+
+body {
+  background-color: white;
+}
+
+ /* General settings */ 
+
+
+.font1 {
+  font-size: 40px;
+  text-anchor: start;
+}
+
+.font2 {
+  font-size: 40px;
+  text-anchor: start;
+  opacity: 0;
+}
+
+.font2:hover {
+  opacity: 1;
+  -webkit-transition-duration: 0.7s;
+}
+
+
+/*
+.container {
+  float: none;
+}
+*/
+
+.area1 {
+  left: 0vw;
+  width: 45vw;
+  height: 50vh;
+}
+
+
+
+.area2 {
+  left: 0vw;
+  width: 45vw;
+  height: 50vh;
+}
+
+
+
+.area3 {
+  left: 45vw;
+  top: -101.5vh;
+}
+
+
+
+
+
+/*Dropdown menus*/
+.dropdown1 {
+    background: url("Style/Canada.png") no-repeat scroll right bottom;
+    display: block;
+    display: inline-block;
+    background-size:contain;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0px 0px;
+    /*border: none;*/
+    position: relative;
+    left: 5vw;
+    width: 8vw;
+    top: 27vh;
+    height: 5vw;
+    cursor: pointer;
+    font-family: NY;
+    /*line-height: 16px;*/
+    /*border-radius: 10px;*/
+    font-size: 14px;
+    color: transparent;
+    background-color: none;
+}
+
+
+
+
+
+
+.dropdown2 {
+    background: url("Style/Ukraine.png") no-repeat scroll right bottom;
+    display: block;
+    display: inline-block;
+    background-size:contain;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    /*margin: 0px 0px;*/
+    /*border: none;*/
+    position: relative;
+    left:5vw;
+    top: 62vh;
+    width: 8vw;
+    height: 5vw;
+    cursor: pointer;
+    font-family: NY;
+    /*line-height: 16px;*/
+    /*border-radius: 10px;*/
+    /*font-size: 14px;*/
+    color: transparent;
+    background-color: none;
+}
+
+
+
+
+
+
+
+
+
+/*Unused*/
+
+
+
+
+
+
+
