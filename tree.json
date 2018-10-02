@@ -1,0 +1,584 @@
+{
+  "type": "directory",
+  "name": "Ukrainian",
+  "_children": [
+    {
+      "type": "directory",
+      "name": "Nouns",
+      "id": "AB-15045",
+      "_children": [
+        {
+          "type": "directory",
+          "name": "Animate",
+          "id": "AB-84614",
+          "_children": [
+            {
+              "type": "directory",
+              "name": "Nature",
+              "id": "AB-9365",
+              "_children": [
+                {
+                  "type": "directory",
+                  "name": "Nature",
+                  "id": "AB-31569",
+                  "_children": [
+                    {
+                      "type": "file",
+                      "name": "Natural world",
+                      "id": "AB-32931",
+                      "link": "https://rawgit.com/zemlatrus/Drill/master/Nouns/Animate/Nature/Nature/Natural world.html"
+                    },
+                    {
+                      "type": "file",
+                      "name": "Trees",
+                      "id": "AB-51351",
+                      "link": "https://rawgit.com/zemlatrus/Drill/master/Nouns/Animate/Nature/Nature/Trees.html"
+                    }
+                  ]
+                },
+                {
+                  "type": "directory",
+                  "name": "Creatures",
+                  "id": "AB-21020",
+                  "_children": [
+                    {
+                      "type": "file",
+                      "name": "Amphibians",
+                      "id": "AB-66235",
+                      "link": "https://rawgit.com/zemlatrus/Drill/master/Nouns/Animate/Nature/Creatures/Amphibians.html"
+                    },
+                    {
+                      "type": "file",
+                      "name": "Common",
+                      "id": "AB-53763",
+                      "link": "https://rawgit.com/zemlatrus/Drill/master/Nouns/Animate/Nature/Creatures/Common.html"
+                    },
+                    {
+                      "type": "file",
+                      "name": "Fish",
+                      "id": "AB-31058",
+                      "link": "https://rawgit.com/zemlatrus/Drill/master/Nouns/Animate/Nature/Creatures/Fish.html"
+                    },
+                    {
+                      "type": "file",
+                      "name": "Birds",
+                      "id": "AB-65124",
+                      "link": "https://rawgit.com/zemlatrus/Drill/master/Nouns/Animate/Nature/Creatures/Birds.html"
+                    },
+                    {
+                      "type": "file",
+                      "name": "Reptiles",
+                      "id": "AB-27345",
+                      "link": "https://rawgit.com/zemlatrus/Drill/master/Nouns/Animate/Nature/Creatures/Reptiles.html"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "directory",
+              "name": "People",
+              "id": "AB-5529",
+              "_children": [
+                {
+                  "type": "directory",
+                  "name": "Descriptions",
+                  "id": "AB-6869",
+                  "_children": [
+                    {
+                      "type": "file",
+                      "name": "People",
+                      "id": "AB-96827",
+                      "link": "https://rawgit.com/zemlatrus/Drill/master/Nouns/Animate/People/Descriptions/People.html"
+                    }
+                  ]
+                },
+                {
+                  "type": "directory",
+                  "name": "Mental",
+                  "id": "AB-74049",
+                  "_children": []
+                },
+                {
+                  "type": "directory",
+                  "name": "Life",
+                  "id": "AB-42862",
+                  "_children": [
+                    {
+                      "type": "file",
+                      "name": "Anatomy",
+                      "id": "AB-10946",
+                      "link": "https://rawgit.com/zemlatrus/Drill/master/Nouns/Animate/People/Life/Anatomy.html"
+                    },
+                    {
+                      "type": "directory",
+                      "name": "Food",
+                      "id": "AB-53911",
+                      "_children": [
+                        {
+                          "type": "file",
+                          "name": "Grain",
+                          "id": "AB-96589",
+                          "link": "https://rawgit.com/zemlatrus/Drill/master/Nouns/Animate/People/Life/Food/Grain.html"
+                        },
+                        {
+                          "type": "file",
+                          "name": "Miscellaneous",
+                          "id": "AB-24019",
+                          "link": "https://rawgit.com/zemlatrus/Drill/master/Nouns/Animate/People/Life/Food/Miscellaneous.html"
+                        },
+                        {
+                          "type": "file",
+                          "name": "Herbs",
+                          "id": "AB-80335",
+                          "link": "https://rawgit.com/zemlatrus/Drill/master/Nouns/Animate/People/Life/Food/Herbs.html"
+                        },
+                        {
+                          "type": "file",
+                          "name": "Baked goods",
+                          "id": "AB-11286",
+                          "link": "https://rawgit.com/zemlatrus/Drill/master/Nouns/Animate/People/Life/Food/Baked goods.html"
+                        },
+                        {
+                          "type": "file",
+                          "name": "Ukrainian dishes",
+                          "id": "AB-65936",
+                          "link": "https://rawgit.com/zemlatrus/Drill/master/Nouns/Animate/People/Life/Food/Ukrainian dishes.html"
+                        },
+                        {
+                          "type": "file",
+                          "name": "Seafood",
+                          "id": "AB-49368",
+                          "link": "https://rawgit.com/zemlatrus/Drill/master/Nouns/Animate/People/Life/Food/Seafood.html"
+                        },
+                        {
+                          "type": "file",
+                          "name": "Dessert",
+                          "id": "AB-81092",
+                          "link": "https://rawgit.com/zemlatrus/Drill/master/Nouns/Animate/People/Life/Food/Dessert.html"
+                        },
+                        {
+                          "type": "file",
+                          "name": "Beverages",
+                          "id": "AB-22411",
+                          "link": "https://rawgit.com/zemlatrus/Drill/master/Nouns/Animate/People/Life/Food/Beverages.html"
+                        },
+                        {
+                          "type": "file",
+                          "name": "Meat",
+                          "id": "AB-59919",
+                          "link": "https://rawgit.com/zemlatrus/Drill/master/Nouns/Animate/People/Life/Food/Meat.html"
+                        },
+                        {
+                          "type": "file",
+                          "name": "Vegetables",
+                          "id": "AB-48169",
+                          "link": "https://rawgit.com/zemlatrus/Drill/master/Nouns/Animate/People/Life/Food/Vegetables.html"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "directory",
+                  "name": "Actions",
+                  "id": "AB-49746",
+                  "_children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "directory",
+          "name": "Inanimate",
+          "id": "AB-83578",
+          "_children": [
+            {
+              "type": "directory",
+              "name": "Abstract",
+              "id": "AB-80118",
+              "_children": []
+            },
+            {
+              "type": "directory",
+              "name": "Descriptions",
+              "id": "AB-58333",
+              "_children": [
+                {
+                  "type": "directory",
+                  "name": "Materials",
+                  "id": "AB-92094",
+                  "_children": [
+                    {
+                      "type": "file",
+                      "name": "Shapes",
+                      "id": "AB-55554",
+                      "link": "https://rawgit.com/zemlatrus/Drill/master/Nouns/Inanimate/Descriptions/Materials/Shapes.html"
+                    },
+                    {
+                      "type": "file",
+                      "name": "Properties",
+                      "id": "AB-48507",
+                      "link": "https://rawgit.com/zemlatrus/Drill/master/Nouns/Inanimate/Descriptions/Materials/Properties.html"
+                    },
+                    {
+                      "type": "file",
+                      "name": "Colours",
+                      "id": "AB-36604",
+                      "link": "https://rawgit.com/zemlatrus/Drill/master/Nouns/Inanimate/Descriptions/Materials/Colours.html"
+                    },
+                    {
+                      "type": "file",
+                      "name": "Substances",
+                      "id": "AB-60718",
+                      "link": "https://rawgit.com/zemlatrus/Drill/master/Nouns/Inanimate/Descriptions/Materials/Substances.html"
+                    }
+                  ]
+                },
+                {
+                  "type": "directory",
+                  "name": "Places",
+                  "id": "AB-86750",
+                  "_children": [
+                    {
+                      "type": "file",
+                      "name": "Infrastructure",
+                      "id": "AB-46900",
+                      "link": "https://rawgit.com/zemlatrus/Drill/master/Nouns/Inanimate/Descriptions/Places/Infrastructure.html"
+                    },
+                    {
+                      "type": "file",
+                      "name": "Countries",
+                      "id": "AB-2481",
+                      "link": "https://rawgit.com/zemlatrus/Drill/master/Nouns/Inanimate/Descriptions/Places/Countries.html"
+                    },
+                    {
+                      "type": "file",
+                      "name": "Building",
+                      "id": "AB-51326",
+                      "link": "https://rawgit.com/zemlatrus/Drill/master/Nouns/Inanimate/Descriptions/Places/Building.html"
+                    },
+                    {
+                      "type": "file",
+                      "name": "Locations",
+                      "id": "AB-34050",
+                      "link": "https://rawgit.com/zemlatrus/Drill/master/Nouns/Inanimate/Descriptions/Places/Locations.html"
+                    }
+                  ]
+                },
+                {
+                  "type": "directory",
+                  "name": "Time",
+                  "id": "AB-88033",
+                  "_children": [
+                    {
+                      "type": "file",
+                      "name": "Seasons",
+                      "id": "AB-4939",
+                      "link": "https://rawgit.com/zemlatrus/Drill/master/Nouns/Inanimate/Descriptions/Time/Seasons.html"
+                    },
+                    {
+                      "type": "file",
+                      "name": "Months",
+                      "id": "AB-21390",
+                      "link": "https://rawgit.com/zemlatrus/Drill/master/Nouns/Inanimate/Descriptions/Time/Months.html"
+                    },
+                    {
+                      "type": "file",
+                      "name": "Days",
+                      "id": "AB-95489",
+                      "link": "https://rawgit.com/zemlatrus/Drill/master/Nouns/Inanimate/Descriptions/Time/Days.html"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "directory",
+              "name": "Objects",
+              "id": "AB-21687",
+              "_children": [
+                {
+                  "type": "directory",
+                  "name": "Home",
+                  "id": "AB-35031",
+                  "_children": [
+                    {
+                      "type": "file",
+                      "name": "Living room",
+                      "id": "AB-9819",
+                      "link": "https://rawgit.com/zemlatrus/Drill/master/Nouns/Inanimate/Objects/Home/Living room.html"
+                    },
+                    {
+                      "type": "file",
+                      "name": "Kitchen",
+                      "id": "AB-67407",
+                      "link": "https://rawgit.com/zemlatrus/Drill/master/Nouns/Inanimate/Objects/Home/Kitchen.html"
+                    },
+                    {
+                      "type": "file",
+                      "name": "Bathroom",
+                      "id": "AB-21753",
+                      "link": "https://rawgit.com/zemlatrus/Drill/master/Nouns/Inanimate/Objects/Home/Bathroom.html"
+                    },
+                    {
+                      "type": "file",
+                      "name": "Garden",
+                      "id": "AB-61223",
+                      "link": "https://rawgit.com/zemlatrus/Drill/master/Nouns/Inanimate/Objects/Home/Garden.html"
+                    }
+                  ]
+                },
+                {
+                  "type": "file",
+                  "name": "Miscellaneous",
+                  "id": "AB-69263",
+                  "link": "https://rawgit.com/zemlatrus/Drill/master/Nouns/Inanimate/Objects/Miscellaneous.html"
+                },
+                {
+                  "type": "file",
+                  "name": "Clothes",
+                  "id": "AB-99347",
+                  "link": "https://rawgit.com/zemlatrus/Drill/master/Nouns/Inanimate/Objects/Clothes.html"
+                },
+                {
+                  "type": "file",
+                  "name": "Furniture",
+                  "id": "AB-25051",
+                  "link": "https://rawgit.com/zemlatrus/Drill/master/Nouns/Inanimate/Objects/Furniture.html"
+                }
+              ]
+            },
+            {
+              "type": "directory",
+              "name": "Society",
+              "id": "AB-58084",
+              "_children": [
+                {
+                  "type": "directory",
+                  "name": "Institutions",
+                  "id": "AB-18416",
+                  "_children": [
+                    {
+                      "type": "file",
+                      "name": "Government",
+                      "id": "AB-16086",
+                      "link": "https://rawgit.com/zemlatrus/Drill/master/Nouns/Inanimate/Society/Institutions/Government.html"
+                    },
+                    {
+                      "type": "file",
+                      "name": "Justice",
+                      "id": "AB-94927",
+                      "link": "https://rawgit.com/zemlatrus/Drill/master/Nouns/Inanimate/Society/Institutions/Justice.html"
+                    },
+                    {
+                      "type": "file",
+                      "name": "Media",
+                      "id": "AB-37280",
+                      "link": "https://rawgit.com/zemlatrus/Drill/master/Nouns/Inanimate/Society/Institutions/Media.html"
+                    },
+                    {
+                      "type": "file",
+                      "name": "Military",
+                      "id": "AB-2684",
+                      "link": "https://rawgit.com/zemlatrus/Drill/master/Nouns/Inanimate/Society/Institutions/Military.html"
+                    },
+                    {
+                      "type": "file",
+                      "name": "Education",
+                      "id": "AB-51476",
+                      "link": "https://rawgit.com/zemlatrus/Drill/master/Nouns/Inanimate/Society/Institutions/Education.html"
+                    },
+                    {
+                      "type": "file",
+                      "name": "Religion",
+                      "id": "AB-18309",
+                      "link": "https://rawgit.com/zemlatrus/Drill/master/Nouns/Inanimate/Society/Institutions/Religion.html"
+                    }
+                  ]
+                },
+                {
+                  "type": "directory",
+                  "name": "Commerce",
+                  "id": "AB-48660",
+                  "_children": [
+                    {
+                      "type": "file",
+                      "name": "Infrastructure",
+                      "id": "AB-23179",
+                      "link": "https://rawgit.com/zemlatrus/Drill/master/Nouns/Inanimate/Society/Commerce/Infrastructure.html"
+                    },
+                    {
+                      "type": "directory",
+                      "name": "Transportation",
+                      "id": "AB-40534",
+                      "_children": [
+                        {
+                          "type": "file",
+                          "name": "Boats",
+                          "id": "AB-61831",
+                          "link": "https://rawgit.com/zemlatrus/Drill/master/Nouns/Inanimate/Society/Commerce/Transportation/Boats.html"
+                        },
+                        {
+                          "type": "file",
+                          "name": "Airplanes",
+                          "id": "AB-39894",
+                          "link": "https://rawgit.com/zemlatrus/Drill/master/Nouns/Inanimate/Society/Commerce/Transportation/Airplanes.html"
+                        },
+                        {
+                          "type": "file",
+                          "name": "Public transport",
+                          "id": "AB-41542",
+                          "link": "https://rawgit.com/zemlatrus/Drill/master/Nouns/Inanimate/Society/Commerce/Transportation/Public transport.html"
+                        },
+                        {
+                          "type": "file",
+                          "name": "Trains",
+                          "id": "AB-2536",
+                          "link": "https://rawgit.com/zemlatrus/Drill/master/Nouns/Inanimate/Society/Commerce/Transportation/Trains.html"
+                        },
+                        {
+                          "type": "file",
+                          "name": "General",
+                          "id": "AB-12056",
+                          "link": "https://rawgit.com/zemlatrus/Drill/master/Nouns/Inanimate/Society/Commerce/Transportation/General.html"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "file",
+                      "name": "Shop",
+                      "id": "AB-6921",
+                      "link": "https://rawgit.com/zemlatrus/Drill/master/Nouns/Inanimate/Society/Commerce/Shop.html"
+                    },
+                    {
+                      "type": "file",
+                      "name": "Commerce ",
+                      "id": "AB-273",
+                      "link": "https://rawgit.com/zemlatrus/Drill/master/Nouns/Inanimate/Society/Commerce/Commerce .html"
+                    }
+                  ]
+                },
+                {
+                  "type": "directory",
+                  "name": "Knowledge",
+                  "id": "AB-17727",
+                  "_children": [
+                    {
+                      "type": "file",
+                      "name": "Subjects",
+                      "id": "AB-38695",
+                      "link": "https://rawgit.com/zemlatrus/Drill/master/Nouns/Inanimate/Society/Knowledge/Subjects.html"
+                    }
+                  ]
+                },
+                {
+                  "type": "directory",
+                  "name": "Culture",
+                  "id": "AB-92512",
+                  "_children": [
+                    {
+                      "type": "file",
+                      "name": "Musical terms",
+                      "id": "AB-98965",
+                      "link": "https://rawgit.com/zemlatrus/Drill/master/Nouns/Inanimate/Society/Culture/Musical terms.html"
+                    },
+                    {
+                      "type": "file",
+                      "name": "Sports",
+                      "id": "AB-6853",
+                      "link": "https://rawgit.com/zemlatrus/Drill/master/Nouns/Inanimate/Society/Culture/Sports.html"
+                    },
+                    {
+                      "type": "file",
+                      "name": "Culture",
+                      "id": "AB-50102",
+                      "link": "https://rawgit.com/zemlatrus/Drill/master/Nouns/Inanimate/Society/Culture/Culture.html"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "_parents": [
+    {
+      "type": "directory",
+      "name": "Verbs",
+      "id": "AB-85335",
+      "_parents": [
+        {
+          "type": "file",
+          "name": "Possession",
+          "id": "AB-32467",
+          "link": "https://rawgit.com/zemlatrus/Drill/master/Verbs/Possession.html"
+        },
+        {
+          "type": "file",
+          "name": "Abstract action",
+          "id": "AB-94122",
+          "link": "https://rawgit.com/zemlatrus/Drill/master/Verbs/Abstract action.html"
+        },
+        {
+          "type": "file",
+          "name": "Sensory processes",
+          "id": "AB-61531",
+          "link": "https://rawgit.com/zemlatrus/Drill/master/Verbs/Sensory processes.html"
+        },
+        {
+          "type": "file",
+          "name": "Movement",
+          "id": "AB-84538",
+          "link": "https://rawgit.com/zemlatrus/Drill/master/Verbs/Movement.html"
+        },
+        {
+          "type": "file",
+          "name": "Physical action",
+          "id": "AB-28635",
+          "link": "https://rawgit.com/zemlatrus/Drill/master/Verbs/Physical action.html"
+        },
+        {
+          "type": "file",
+          "name": "Communication",
+          "id": "AB-70208",
+          "link": "https://rawgit.com/zemlatrus/Drill/master/Verbs/Communication.html"
+        }
+      ]
+    },
+    {
+      "type": "directory",
+      "name": "Other",
+      "id": "AB-25603",
+      "_parents": [
+        {
+          "type": "file",
+          "name": "Conjunctions",
+          "id": "AB-24302",
+          "link": "https://rawgit.com/zemlatrus/Drill/master/Other/Conjunctions.html"
+        },
+        {
+          "type": "file",
+          "name": "Adverbs",
+          "id": "AB-37683",
+          "link": "https://rawgit.com/zemlatrus/Drill/master/Other/Adverbs.html"
+        },
+        {
+          "type": "file",
+          "name": "Adjectives",
+          "id": "AB-46464",
+          "link": "https://rawgit.com/zemlatrus/Drill/master/Other/Adjectives.html"
+        },
+        {
+          "type": "file",
+          "name": "Pronouns",
+          "id": "AB-99632",
+          "link": "https://rawgit.com/zemlatrus/Drill/master/Other/Pronouns.html"
+        }
+      ]
+    }
+  ]
+}

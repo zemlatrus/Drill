@@ -1,0 +1,308 @@
+
+<!DOCTYPE html>
+  <meta charset="utf-8">
+
+
+  <style>
+
+    @import url(/Users/the_matrix/Documents/Data/Flash/combined-style.css);
+
+  </style>
+
+
+  <body>
+
+
+    <!-- Define the individual containers -->
+    <div class="wrapper" id="area1"></div>
+    <div class="wrapper" id="area2"></div>
+    <div class="wrapper" id="area3"></div>
+    <div class="wrapper" id="area4"></div>
+    <div class="wrapper" id="area5"></div>
+
+
+
+
+
+    <!-- Load the external d3.js libraries -->     
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <script src="http://d3js.org/queue.v1.min.js"> </script>
+    <script src="https://d3js.org/d3-color.v1.min.js"></script>
+    <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+
+
+
+    <!-- Define the main script -->
+    <script>
+
+
+    // Determine the height and width of the window
+    var w      = window.innerWidth  || document.documentElement.clientWidth  || document.body.clientWidth;
+    var h      = window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight;
+    // var margin = {top: 50, right: 50, bottom: 50, left: 50},
+
+
+    // Set the dimensions of the SVG containers
+    // width  = (w - margin.left - margin.right),
+    // height = (h - margin.top - margin.bottom);
+ 
+ 
+    var elements           = 0,
+        original_data      = 0,
+        selection          = 0,
+        reference_language = 0,
+        practice_language  = 0,
+        size               = 0,
+        random_entry       = 0;
+
+
+
+
+
+
+    function dataLoad()
+    {
+        queue().defer(d3.csv, csv_file)
+               .await(Main);              
+
+    }
+
+
+    function Main(error, csv_data)
+    {
+      // Store data in a global variable for access later
+      original_data = csv_data;
+
+      // Organize the data for display
+      elements, random_entry, shuffled = initializeData(csv_data);
+
+      language1 = elements[0];
+      language2 = elements[1];
+
+      // Populate the dropdown menus
+      dropDown('#area4', 'Canada', 'dropdown1', elements, 'top')
+      dropDown('#area5', 'Ukraine', 'dropdown2', elements, 'bottom')
+
+
+
+      var i = 0;                     
+
+      function myLoop () {           
+         setTimeout(function () {    
+              newWriting("#area1", svg1, shuffled[i], h/3, language1, 'top');
+              newWriting("#area2", svg2, shuffled[i], h/6.1, language2, 'bottom');
+            i++;                     
+            if (i < shuffled.length) { 
+               myLoop();             
+            }                        
+         }, 2000)
+      }
+
+      myLoop();
+
+    }
+
+
+
+    function initializeData(csv_data)
+    {
+
+        elements = d3.keys(csv_data[0]).slice(0, -1);
+
+        shuffled = shuffle(original_data);
+
+        random_entry = original_data[Math.floor(Math.random() * original_data.length)];
+
+        return elements, random_entry, shuffled;
+
+    }
+
+
+
+
+    function newWriting(area, container, random_entry, size, language, mode) {
+
+
+        d3.select(area)
+          .selectAll('text')
+          .remove();
+
+        d3.select("#area3")
+          .select("svg")
+          .remove();
+
+        container.append("text")
+            .attr("x", w/7)
+            .attr("y", size)
+            .attr('class', fontStyle(mode))
+            .attr('font-family', fontSelector(language))
+            .text(function() {return random_entry[language];});
+
+
+
+        if (size === h/3) {
+
+          var img = svg3.append("svg:image")
+                      // .attr("xlink:href", function() {return 'Pictures/' + random_entry.English + '.jpg';})
+                      .attr("width", w/2)
+                      .attr("height", h/2)
+                      .attr("x", 0)
+                      .attr("y", h/4);
+        }
+
+
+    }
+
+
+
+
+    function fontSelector(language)
+    {
+      if (language === 'English') {
+        return 'NY';
+      }
+
+      if (language === 'Україньска') {
+        return 'Evangelie';
+      }
+      if (language === 'Русский') {
+        return 'Evangelie';
+      }
+
+    }
+
+
+
+    function fontStyle(mode)
+    {
+      if (mode === 'top') {
+        return 'font1';
+      }
+
+      else {
+        return 'font2';
+      }
+
+    }
+
+
+
+    function dropDown(area, country, styling, data_list, mode)
+    {
+      // Define the container for the dropdown menu
+      var dropDown = d3.select(area)
+                       .append("select")
+                        .style("position", "absolute")
+                         .attr("width", w)
+                         .attr("height", h/2)
+                         // .attr("background", "url("Style/" + country + ".png") no-repeat scroll right bottom")
+                       .attr("class", styling);
+
+
+      // Populate the selection menu
+      var options = dropDown.selectAll("option")
+                            .data(data_list) 
+                            .enter()
+                            .append("option");
+
+
+      // Label each option and associate it with its corresponding file
+      options.text(function (d) { return d; })
+             .attr("value", function (d) { return d; });
+
+
+      // These are the functions that execute when a selection is made
+      dropDown.on("change", function()
+      {
+
+        // Redefine the data to be plotted
+        language = d3.event.target.value;
+
+        if (mode === 'top') {
+          newWriting("#area1", svg1, random_entry, h/3, language, 'top');
+        }
+
+        else {
+          newWriting("#area2", svg2, random_entry, h/6.1, language, 'bottom');
+        }
+
+        
+
+      });
+    }
+
+
+
+    function shuffle(array) {
+      var currentIndex = array.length, temporaryValue, randomIndex;
+
+      // While there remain elements to shuffle...
+      while (0 !== currentIndex) {
+
+        // Pick a remaining element...
+        randomIndex = Math.floor(Math.random() * currentIndex);
+        currentIndex -= 1;
+
+        // And swap it with the current element.
+        temporaryValue      = array[currentIndex];
+        array[currentIndex] = array[randomIndex];
+        array[randomIndex]  = temporaryValue;
+      }
+
+      return array;
+    }
+
+
+
+
+
+    // All of the data to be plotted
+    var csv_file = '/Users/the_matrix/Documents/Data/Ukrainian/Nouns/Animate/People/Life/Food/Seafood.csv';
+
+
+
+    // Create SVG element
+    var svg1 = d3.select("#area1")
+                 .append("svg")
+                 .style("position", "relative")
+                 .attr('class', 'area1');
+
+
+
+
+
+
+    var svg2 = d3.select("#area2")
+                 .append("svg")
+                 .style("position", "relative")
+                 .attr('class', 'area2');
+
+
+
+
+
+    var svg3 = d3.select("#area3")
+                 .append("svg")
+                 .style("position", "relative")
+                 .attr('class', 'area3')
+                     .attr("width", w/2)
+                     .attr("height", h);
+
+
+
+
+
+
+
+    // Start the program
+    dataLoad()
+    
+
+
+
+
+    </script>
+</body>
+
+
+  
