@@ -1,21 +1,21 @@
 @font-face{
   font-family: 'Thin';
-  src: url('Style/Fonts/thin-world.ttf');
+  src: url('https://rawgit.com/zemlatrus/Drill/tree/master/Fonts/thin-world.ttf');
 }
 
 @font-face{
   font-family: 'Kyiv';
-  src: url('Style/Fonts/Ancient_Kyiv.TTF');
+  src: url('https://rawgit.com/zemlatrus/Drill/tree/master/Fonts/Ancient_Kyiv.TTF');
 }
 
 @font-face{
   font-family: 'NY';
-  src: url('Style/Fonts/NEWYORKR.TTF');
+  src: url('https://rawgit.com/zemlatrus/Drill/tree/master/Fonts/NEWYORKR.TTF');
 }
 
 @font-face{
   font-family: 'Evangelie';
-  src: url('Style/Fonts/Evangelie.TTF');
+  src: url('https://rawgit.com/zemlatrus/Drill/tree/master/Fonts/Evangelie.TTF');
 }
 
 
@@ -76,7 +76,7 @@ body {
 
 /*Dropdown menus*/
 .dropdown1 {
-    background: url("Style/Canada.png") no-repeat scroll right bottom;
+    background: url("https://rawgit.com/zemlatrus/Drill/tree/master/Fonts/Canada.png") no-repeat scroll right bottom;
     display: block;
     display: inline-block;
     background-size:contain;
@@ -105,7 +105,7 @@ body {
 
 
 .dropdown2 {
-    background: url("Style/Ukraine.png") no-repeat scroll right bottom;
+    background: url("https://rawgit.com/zemlatrus/Drill/tree/master/Fonts/Ukraine.png") no-repeat scroll right bottom;
     display: block;
     display: inline-block;
     background-size:contain;
