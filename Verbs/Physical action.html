@@ -76,13 +76,15 @@
       // Organize the data for display
       elements, random_entry, shuffled = initializeData(csv_data);
 
-      language1 = elements[0];
-      language2 = elements[1];
+      language1 = elements[1];
+      language2 = elements[0];
 
       // Populate the dropdown menus
-      dropDown('#area4', 'Canada', 'dropdown1', elements, 'top')
-      dropDown('#area5', 'Ukraine', 'dropdown2', elements, 'bottom')
-
+      // dropDown('#area4', 'Canada', 'dropdown1', elements, 'top')
+      // dropDown('#area5', 'Ukraine', 'dropdown2', elements, 'bottom')
+      
+      dropDown('#area4', 'Ukraine', 'dropdown2', elements, 'top')
+      dropDown('#area5', 'Canada', 'dropdown1', elements, 'bottom')
 
 
       var i = 0;                     
@@ -95,7 +97,7 @@
             if (i < shuffled.length) { 
                myLoop();             
             }                        
-         }, 2000)
+         }, 4000)
       }
 
       myLoop();
